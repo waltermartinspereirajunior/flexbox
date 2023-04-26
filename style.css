@@ -330,6 +330,12 @@ a {
     background-color: rgb(24, 202, 187);
     padding: 14px;
     height: 500px;
+
+    
+}
+
+#Shorthand {
+    color:rgb(247, 10, 10)
 }
 .container-flex-flow-row-nowrap {
     display: flex;
