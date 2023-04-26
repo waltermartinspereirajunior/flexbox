@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+
+hr {
+    margin: 15px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
+
 .bloco-1 {
     background-color: lightcoral;
     height: 145px;
@@ -120,7 +137,7 @@ a {
 }
 
 .menu-navegacao a:hover{
-    background-color: git add .rgb(227, 243, 8)
+    background-color: rgb(227, 243, 8)
 
 }
 .container {
@@ -179,11 +196,11 @@ a {
     /*indiferente */
     background-color: rgb(117, 116, 143);
     padding: 14px;
-    height: 140px;
+    height: 200px;
 
 }
 
-.container-flex-start {
+.container-justify-flex-start {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -191,7 +208,7 @@ a {
     /*indiferente */
     background-color: rgb(48, 89, 150);
     padding: 14px;
-    height: 140px;
+    height: 200px;
 
 }
 
@@ -230,15 +247,14 @@ a {
     padding: 14px;
     height: 220px;
 }
-
-.container-alignitems-top {
+.container-alignitems-flex-start {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: top;
+    align-items: flex-start;
 
     /*indiferente */
-    background-color: rgb(22, 228, 56);
+    background-color: rgb(228, 224, 22);
     padding: 14px;
     height: 220px;
 }
@@ -379,7 +395,7 @@ a {
     align-content: space-around;
 
     /*indiferente */
-    background-color: rgb(243, 248, 244);
+    background-color: rgb(170, 173, 171);
     padding: 14px;
     height: 500px;
 }
